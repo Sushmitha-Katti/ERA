@@ -28,7 +28,7 @@ For the above network, calculate the back propoagtion for each epoch.
 3. For the minimum loss, we need to optimize the weights
 4. So we calculate the partial derivates of total loss w.r.t all the weights
   - Each Weight(W) is updated by 
-  - ```Wnew = Wold + Learning_Rate * partial derivative```
+  - ```W(new) = W(old) + Learning_Rate * partial derivative```
   - Learning Rate indicates the amount of change we are doing. It will be smaller value. 
 6. We use activation function to achieve some non linearity.
 
