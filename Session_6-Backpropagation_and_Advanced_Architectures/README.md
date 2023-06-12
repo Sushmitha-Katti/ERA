@@ -12,7 +12,7 @@ For the above network, calculate the back propoagtion for each epoch.
 - Show what happens to the error graph when you change the learning rate from [0.1, 0.2, 0.5, 0.8, 1.0, 2.0] 
 
 
-## Solution
+## [Solution](https://github.com/Sushmitha-Katti/ERA/blob/main/Session_6-Backpropagation_and_Advanced_Architectures/S6-BackPropogation.xlsx)
 ### Network Structure
 - Inputs : 2
 - Hiden Layer: 1 
