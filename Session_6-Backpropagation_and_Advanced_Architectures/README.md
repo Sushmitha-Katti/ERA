@@ -55,7 +55,7 @@ Write a code to train MNIST data such that it achieves the following things
 - (Optional): a Fully connected layer, have used GAP. 
 
 
-## Solution
+## [Solution](https://github.com/Sushmitha-Katti/ERA/blob/main/Session_6-Backpropagation_and_Advanced_Architectures/Solution.ipynb)
 
 The CNN model consists of the following layers:
 
