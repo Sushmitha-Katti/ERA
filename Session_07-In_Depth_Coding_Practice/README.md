@@ -1,4 +1,13 @@
-# README
+# In Depth Coding Practice
+
+# Goal
+
+- Train the MNIST Dataset
+- Target Accuracy: 99.4 - (this must be consistently shown in your last few epochs, and not a one-time achievement)
+- Maximum Epochs: 15
+- Maximum Parameters: 8000
+- Code should be modular
+- Minium iteration is 3.Each File must have a "target, result, analysis" TEXT block (either at the start or the end)
 
 ## Code Drill 1
   * Target
