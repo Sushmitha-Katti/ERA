@@ -3,7 +3,10 @@
 ## Code Drill 1
   * Target
     * Setup Basic Skeleton. 
-    * Modularize the Code
+    * Modularized the Code. 
+      - models folder to store all models.
+      - train_test - include train test functions.
+      - utils - includes all utility functions.
   * Result
     * Parameters: 6,379,786
     * Epochs: 20
@@ -15,9 +18,9 @@
  
 ## Code Drill 2
   * Target 
-    * Fix the Structure of Model. Going with the model where channels are increasing as we go futher. 
-    * Introduce Dropout of 0.1
-    * Introduce Max Pool after the Receptive Field: 5
+    * Fixed the Structure of Model. Going with the model where channels are increasing as we go futher. 
+    * Introduced Dropout of 0.1
+    * Introduced Max Pool after the Receptive Field: 5
   * Result
     * Parameters: 9,634
     * Epochs: 20
@@ -30,11 +33,11 @@
 
 ## Code Drill 3(7)
   * Target
-     * Using Image Agumentation: Random Rotation
-     * Reduce the number of parameters to reach the 8k parameters goal
-     * Reduce the number of epochs to 15 to reach 15 epochs goal
-     * Shift the max pooling after the receptive fied 7
-     * Increase Dropout to 0.2
+     * Used Image Agumentation: Random Rotation
+     * Reduced the number of parameters to reach the 8k parameters goal
+     * Reduced the number of epochs to 15 to reach 15 epochs goal
+     * Shifted the max pooling after the receptive fied 7
+     * Increased Dropout to 0.2
   * Result
     * Parameters: 7,674
     * Epochs: 15
@@ -48,7 +51,7 @@
 ## Code Drill 5(8)
 
 * Target
-  * Reduce the dropout to 0.1
+  * Reduced the dropout to 0.1
   * In the Random Rotation fill to 0 from 1. Earlier it was 1, giving a try with 0.
 * Result 
   * Parameters: 7,674

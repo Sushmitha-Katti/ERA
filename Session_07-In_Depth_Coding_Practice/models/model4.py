@@ -1,9 +1,9 @@
 import torch.nn as nn
 import torch.nn.functional as F
 
-class Model8(nn.Module):
+class Model4(nn.Module):
     def __init__(self):
-        super(Model8, self).__init__()
+        super(Model4, self).__init__()
         self.conv1 = nn.Sequential(                      
             
         nn.Conv2d(in_channels=1, out_channels=10, kernel_size=(3, 3), padding=0, bias=False),#Op_size = 26, RF = 3
