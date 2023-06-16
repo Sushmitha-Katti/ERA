@@ -24,7 +24,7 @@
 
 ## Code Drill 5
 * Target
-  * 
+  * Reduce the dropout to 0.1
 * Result 
 * Analysis
 
