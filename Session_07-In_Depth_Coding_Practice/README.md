@@ -31,7 +31,7 @@
    * We have not applied any transformations yet, Still we got the better results.
    * Test Accuaracy is better than train accuracy. This means there is a scope to improve training. 
 
-## Code Drill 3(7)
+## Code Drill 3
   * Target
      * Used Image Agumentation: Random Rotation
      * Reduced the number of parameters to reach the 8k parameters goal
@@ -48,7 +48,7 @@
     * Training is still harder. Can be made slightly easier
 
 
-## Code Drill 5(8)
+## Code Drill 4
 
 * Target
   * Reduced the dropout to 0.1
