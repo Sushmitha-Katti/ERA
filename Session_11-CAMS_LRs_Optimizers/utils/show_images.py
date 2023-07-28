@@ -28,7 +28,7 @@ def show_train_data(dataset, classes):
 	# get some random training images
 
   dataiter = iter(dataset)
-  images, labels = dataiter.next()
+  images, labels = next(dataiter.next())
   for i in range(10):
     index = [j for j in range(len(labels)) if labels[j] == i]
     imshow(torchvision.utils.make_grid(images[index[0:5]],nrow=5,padding=2,scale_each=True),classes[i])
