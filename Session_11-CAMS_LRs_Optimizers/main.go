@@ -1,3 +1,5 @@
+from utils.train_test import train, test
+
 def run(model, device, trainloader, testloader, optimizer, criterion, epochs=20):
 	for epoch in range(epochs):
 		print("EPOCH:", epoch+1,'LR:',optimizer.param_groups[0]['lr'])
