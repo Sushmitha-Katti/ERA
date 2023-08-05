@@ -1,9 +1,7 @@
 
 # Custom ResNet Model Training
 
-[![Google Colab](https://img.shields.io/badge/Google_Colab-Open_In_Colab-blue?logo=google-colab)](https://github.com/Sushmitha-Katti/ERA/blob/main/Session_12_PyTorch_Lightning%20_and%20_AI%20_Application_Development/S12_final.ipynb)
-[![Modular Code](https://img.shields.io/badge/Modular_Code-View_Code-green?logo=github)](https://github.com/Sushmitha-Katti/ERA/tree/main/Session_12_PyTorch_Lightning%20_and%20_AI%20_Application_Development/modular)
-[![Hugging Face Gradio App](https://img.shields.io/badge/Hugging_Face-Gradio_App-blue?logo=hugging-face)](https://huggingface.co/spaces/skatti/ResNetRiddle)
+[![Google Colab](https://img.shields.io/badge/Google_Colab-Open_In_Colab-blue?logo=google-colab)](https://github.com/Sushmitha-Katti/ERA/blob/main/Session_12_PyTorch_Lightning%20_and%20_AI%20_Application_Development/S12_final.ipynb) &nbsp;&nbsp;&nbsp; [![Modular Code](https://img.shields.io/badge/Modular_Code-View_Code-green?logo=github)](https://github.com/Sushmitha-Katti/ERA/tree/main/Session_12_PyTorch_Lightning%20_and%20_AI%20_Application_Development/modular) &nbsp;&nbsp;&nbsp; [![Hugging Face Gradio App](https://img.shields.io/badge/Hugging_Face-Gradio_App-blue?logo=hugging-face)](https://huggingface.co/spaces/skatti/ResNetRiddle)
 
 
 This section provides an overview of the custom ResNet model architecture, training details, and performance metrics.
