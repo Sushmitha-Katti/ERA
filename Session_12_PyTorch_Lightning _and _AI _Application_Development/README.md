@@ -1,6 +1,9 @@
 
 # Custom ResNet Model Training
 
+[![Google Colab](https://img.shields.io/badge/Google_Colab-Open_In_Colab-blue?logo=google-colab)](https://github.com/Sushmitha-Katti/ERA/blob/main/Session_12_PyTorch_Lightning%20_and%20_AI%20_Application_Development/S12_final.ipynb)
+[![Modular Code](https://img.shields.io/badge/Modular_Code-View_Code-green?logo=github)](https://github.com/Sushmitha-Katti/ERA/tree/main/Session_12_PyTorch_Lightning%20_and%20_AI%20_Application_Development/modular)
+
 This section provides an overview of the custom ResNet model architecture, training details, and performance metrics.
 
 
@@ -33,16 +36,16 @@ The custom ResNet model architecture used for this project is as follows:
 - **Best Train Accuracy:** 98%
 - **Best Test Accuracy:** 90%
 
-## Additional Resources
+## Misclassified Images
 
-- [Link to Misclassified Images](link-to-misclassified-images)
-- [Google Colab Link for Training](google-colab-link)
-- [Modular Code for Model Training](link-to-modular-code)
+(Image)![image](https://github.com/Sushmitha-Katti/ERA/assets/36964484/f37ed89f-0bc6-4820-bf0b-6ea89efdf65d)
 
+
+## Misclassified GradCam Images For 
+
+(Image)![image](https://github.com/Sushmitha-Katti/ERA/assets/36964484/b0252e3d-2491-4843-88d8-730be665697a)
 
 > Note: Loss and accuracy graphs can be visualized in the associated Colab notebook.
 
-## Grad-CAM Images
 
-[Link to Grad-CAM Images](link-to-gradcam-images)
 
