@@ -38,12 +38,12 @@ The custom ResNet model architecture used for this project is as follows:
 
 ## Misclassified Images
 
-(Image)![image](https://github.com/Sushmitha-Katti/ERA/assets/36964484/f37ed89f-0bc6-4820-bf0b-6ea89efdf65d)
+![image](https://github.com/Sushmitha-Katti/ERA/assets/36964484/f37ed89f-0bc6-4820-bf0b-6ea89efdf65d)
 
 
 ## Misclassified GradCam Images For 
 
-(Image)![image](https://github.com/Sushmitha-Katti/ERA/assets/36964484/b0252e3d-2491-4843-88d8-730be665697a)
+![image](https://github.com/Sushmitha-Katti/ERA/assets/36964484/b0252e3d-2491-4843-88d8-730be665697a)
 
 > Note: Loss and accuracy graphs can be visualized in the associated Colab notebook.
 
