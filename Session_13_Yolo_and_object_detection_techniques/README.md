@@ -1,5 +1,5 @@
 [![Hugging Face Model](https://img.shields.io/badge/Hugging%20Face-Model%20Link-blue)](https://huggingface.co/spaces/skatti/YOLO-PASCO)
-[![Kaggle Notebook](https://img.shields.io/badge/Kaggle-Notebook%20Training%20Link-blue)](https://www.kaggle.com/code/sushmithakatti/yolov3/edit)
+[![Kaggle Notebook](https://img.shields.io/badge/Kaggle-Notebook%20Training%20Link-blue)](https://www.kaggle.com/code/sushmithakatti/yolov3?scriptVersionId=141025965)
 
 # YOLOv3 Object Detection with PyTorch Lightning
 
@@ -16,7 +16,7 @@ In this repository, we present an implementation of YOLOv3, a state-of-the-art o
 
 ### Training
 
-- **Trained Epochs**: 30
+- **Trained Epochs**: 40
   - The model is trained over 30 epochs to learn and refine its object detection capabilities.
 
 - **Batch Size**: 32
