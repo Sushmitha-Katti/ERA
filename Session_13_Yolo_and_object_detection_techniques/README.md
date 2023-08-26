@@ -1,5 +1,6 @@
 [![Hugging Face Model](https://img.shields.io/badge/Hugging%20Face-Model%20Link-blue)](https://huggingface.co/spaces/skatti/YOLO-PASCO)
 [![Kaggle Notebook](https://img.shields.io/badge/Kaggle-Notebook%20Training%20Link-blue)](https://www.kaggle.com/code/sushmithakatti/yolov3?scriptVersionId=141025965)
+[![Modular Code](https://img.shields.io/badge/Modular-Code%20Link-blue)](https://github.com/Sushmitha-Katti/ERA/tree/main/Session_13_Yolo_and_object_detection_techniques/modular)
 
 # YOLOv3 Object Detection with PyTorch Lightning
 
