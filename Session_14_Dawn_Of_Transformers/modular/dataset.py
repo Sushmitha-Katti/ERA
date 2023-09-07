@@ -73,9 +73,7 @@ class BilinualDataset(Dataset):
         dim=0,
     )
 
-    print("Enocder size", encoder_input.size(0))
-    print("Decoder size", decoder_input.size(0))
-    print("Label size", label.size(0))
+
     assert encoder_input.size(0) == self.seq_len
     assert decoder_input.size(0) == self.seq_len
     assert label.size(0) == self.seq_len
