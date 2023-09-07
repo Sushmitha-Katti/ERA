@@ -1,5 +1,3 @@
-
-import os
 from pathlib import Path
 
 import torch
@@ -8,10 +6,8 @@ import numpy as np
 import time
 import pytorch_lightning as pl
 
-
 from config import get_weights_file_path
 from utils import run_validation
-
 
 class TextTranslator(pl.LightningModule):
     def __init__(
