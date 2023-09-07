@@ -50,7 +50,7 @@ class BilinualDataset(Dataset):
             self.sos_token,
             torch.tensor(enc_input_tokens, dtype=torch.int64),
             self.eos_token,
-#             torch.tensor([self.pad_token] * enc_num_padding_tokens, dtype=torch.int64),
+            torch.tensor([self.pad_token] * enc_num_padding_tokens, dtype=torch.int64),
         ],
         dim=0,
     )
@@ -59,7 +59,7 @@ class BilinualDataset(Dataset):
         [
             self.sos_token,
             torch.tensor(dec_input_tokens, dtype=torch.int64),
-#             torch.tensor([self.pad_token] * dec_num_padding_tokens, dtype=torch.int64),
+            torch.tensor([self.pad_token] * dec_num_padding_tokens, dtype=torch.int64),
         ],
         dim=0,
     )
@@ -68,7 +68,7 @@ class BilinualDataset(Dataset):
         [
             torch.tensor(dec_input_tokens, dtype=torch.int64),
             self.eos_token,
-#             torch.tensor([self.pad_token] * dec_num_padding_tokens, dtype=torch.int64),
+            torch.tensor([self.pad_token] * dec_num_padding_tokens, dtype=torch.int64),
         ],
         dim=0,
     )
@@ -124,7 +124,7 @@ class BilinualDataModule(pl.LightningDataModule):
         return DataLoader(
             self.train_ds,
             batch_size=self.config['batch_size'],
-            num_workers=self.config['num_workers'], # TODO: Add this code to config
+            num_workers=self.config['num_workers'], 
             shuffle=True,
         )
 
@@ -132,7 +132,7 @@ class BilinualDataModule(pl.LightningDataModule):
         return DataLoader(
             self.val_ds,
             batch_size=1,
-            num_workers=self.config['num_workers'], # TODO: Add this code to config
+            num_workers=self.config['num_workers'], 
             shuffle=True,
         )
 
@@ -140,7 +140,7 @@ class BilinualDataModule(pl.LightningDataModule):
          return DataLoader(
             self.val_ds,
             batch_size=1,
-            num_workers=self.config['num_workers'], # TODO: Add this code to config
+            num_workers=self.config['num_workers'], 
             shuffle=True,
         )
 
