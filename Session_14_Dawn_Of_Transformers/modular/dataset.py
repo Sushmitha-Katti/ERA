@@ -103,7 +103,7 @@ class BilinualDataModule(pl.LightningDataModule):
 
         self.tokenizer_src = self.get_or_build_tokenizer( ds_raw, self.config['lang_src'])
         self.tokenizer_tgt = self.get_or_build_tokenizer(ds_raw, self.config['lang_tgt'])
-        train_ds_size = int(0.1 * len(ds_raw))
+        train_ds_size = int(0.9 * len(ds_raw))
         val_ds_size = len(ds_raw) - train_ds_size
         train_ds_raw, val_ds_raw = random_split(ds_raw, [train_ds_size, val_ds_size])
         self.train_ds = BilinualDataset(train_ds_raw, self.tokenizer_src, self.tokenizer_tgt, self.config['lang_src'], self.config['lang_tgt'], self.config['seq_len'])
