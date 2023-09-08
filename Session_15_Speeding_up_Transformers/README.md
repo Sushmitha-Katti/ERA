@@ -1,7 +1,7 @@
 # English to French Translation with Encoder-Decoder 📚
 
-[![Notebook](https://img.shields.io/badge/Notebook-Open-blue.svg)](link-to-your-notebook)
-[![Code](https://img.shields.io/badge/Code-View%20on%20GitHub-green.svg)](link-to-your-code-repository)
+[![Notebook](https://img.shields.io/badge/Notebook-Open-blue.svg)](https://github.com/Sushmitha-Katti/ERA/blob/main/Session_15_Speeding_up_Transformers/Final_S15.ipynb)
+[![Code](https://img.shields.io/badge/Code-View%20on%20GitHub-green.svg)](https://github.com/Sushmitha-Katti/ERA/tree/main/Session_15_Speeding_up_Transformers/modular)
 
 
 ## Assignment Overview
@@ -51,10 +51,12 @@ The goal of this assignment was to train an English to French translation model 
   <tr>
     <td align="center"><b>Average Train Loss Per Batch</b></td>
     <td align="center"><b>Average Train Loss Per Epoch</b></td>
+    <td align="center"><b>Average Training Time Per Epoch (in seconds)</b></td>
   </tr>
   <tr>
     <td><img src="assets/train_loss.png" alt="Average Train Loss Per Batch" width="300"/></td>
     <td><img src="assets/avg_epoch_train_loss.png" alt="Average Train Loss Per Epoch" width="300"/></td>
+     <td><img src="assets/epoch_time.png" alt="Average Training Time Per Epoch (in seconds)" width="300"/></td>
   </tr>
 </table>
 
@@ -65,13 +67,12 @@ The goal of this assignment was to train an English to French translation model 
     <td align="center"><b>BLEU Score</b></td>
     <td align="center"><b>CER Validation</b></td>
     <td align="center"><b>WER Validation</b></td>
-    <td align="center"><b>Average Training Time Per Epoch (in seconds)</b></td>
+    
   </tr>
   <tr>
     <td><img src="assets/validation_BLEU.png" alt="BLEU Score" width="300"/></td>
     <td><img src="assets/validation_cer.png" alt="CER Validation" width="300"/></td>
     <td><img src="assets/validation_wer.png" alt="WER Validation" width="300"/></td>
-    <td><img src="assets/epoch_time.png" alt="Average Training Time Per Epoch (in seconds)" width="300"/></td>
   </tr>
 </table>
 
