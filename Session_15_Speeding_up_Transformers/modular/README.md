@@ -26,8 +26,8 @@ The `utils` directory contains utility functions and helper scripts:
 - Training and evaluation utilities.
 - Any other helper functions used throughout the project.
 
-## How to Use 🚀
+### 5. `train` 🚂
+The `train` script uses PyTorch Lightning (PL) to train the translation model.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/translation-project.git
+
+

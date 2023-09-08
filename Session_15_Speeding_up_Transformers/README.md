@@ -40,11 +40,6 @@ The goal of this assignment was to train an English to French translation model 
 - **Final Loss:** The training loss reached 1.43.
 - **Performance Metrics:** The translation model was evaluated using BLEU scores, achieving a score of X on the validation dataset and Y on the test dataset.
 
-
-### Training Plots
-
-### Training Plots
-
 ### Training Plots
 
 <table>
