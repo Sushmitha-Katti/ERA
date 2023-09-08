@@ -45,7 +45,13 @@ The goal of this assignment was to train an English to French translation model 
 
 ### Training Plots
 
+### Training Plots
+
 <table>
+  <tr>
+    <td align="center"><b>Average Train Loss Per Batch</b></td>
+    <td align="center"><b>Average Train Loss Per Epoch</b></td>
+  </tr>
   <tr>
     <td><img src="assets/train_loss.png" alt="Average Train Loss Per Batch" width="300"/></td>
     <td><img src="assets/avg_epoch_train_loss.png" alt="Average Train Loss Per Epoch" width="300"/></td>
@@ -56,10 +62,14 @@ The goal of this assignment was to train an English to French translation model 
 
 <table>
   <tr>
-    <td><img src="assets/validation_BLEU.png" alt="BLEU Score" width="300"/></td>
-    <td><img src="assets/validation_cer.png" alt="CER Validation" width="300"/></td>
+    <td align="center"><b>BLEU Score</b></td>
+    <td align="center"><b>CER Validation</b></td>
+    <td align="center"><b>WER Validation</b></td>
+    <td align="center"><b>Average Training Time Per Epoch (in seconds)</b></td>
   </tr>
   <tr>
+    <td><img src="assets/validation_BLEU.png" alt="BLEU Score" width="300"/></td>
+    <td><img src="assets/validation_cer.png" alt="CER Validation" width="300"/></td>
     <td><img src="assets/validation_wer.png" alt="WER Validation" width="300"/></td>
     <td><img src="assets/epoch_time.png" alt="Average Training Time Per Epoch (in seconds)" width="300"/></td>
   </tr>
