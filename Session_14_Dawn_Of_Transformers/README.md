@@ -1,8 +1,7 @@
-# English to French Translation with Encoder-Decoder 📚
+# English to Italian Translation with Encoder-Decoder 📚
 
 [![Notebook](https://img.shields.io/badge/Notebook-Open-blue.svg)](https://www.kaggle.com/code/sushmithakatti/s14-transformers)
-[![Code](https://github.com/Sushmitha-Katti/ERA/tree/main/Session_14_Dawn_Of_Transformers/modular)
-
+[![Code](https://img.shields.io/badge/Code-View%20on%20GitHub-green.svg)](https://github.com/Sushmitha-Katti/ERA/tree/main/Session_14_Dawn_Of_Transformers/modular)
 
 ## Assignment Overview
 The goal of this assignment was to train an English to French translation model using the OPUS book translation dataset. The primary objective was to achieve a final loss of less than 4 during training in 10 epochs.

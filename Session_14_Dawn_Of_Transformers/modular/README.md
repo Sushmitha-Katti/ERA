@@ -1,4 +1,4 @@
-# English to French Translation with Encoder-Decoder 📚
+# English to Italian Translation with Encoder-Decoder 📚
 
 ## Introduction
 This repository contains the code for training an English to French translation model code using the Encoder-Decoder architecture. The model is designed for use with the OPUS book translation dataset, with the goal of achieving a final loss of less than 1.8 during training.
