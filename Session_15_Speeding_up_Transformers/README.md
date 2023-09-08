@@ -16,29 +16,33 @@ The goal of this assignment was to train an English to French translation model 
 
 ## Model Architecture 🧠
 - **Encoder-Decoder:** This model utilizes the encoder-decoder architecture for sequence-to-sequence translation tasks.
-- **Parameter Sharing:** Implemented parameter sharing with a dense feedforward layer size (dff) of 1024.
+- **Parameter Sharing:** Implemented parameter sharing with a dense feedforward layer size (dff) of `1024.`
+  - Sharing Pattern : 
+    - [e1, e2, e3, e1, e2, e3] - for encoder
+    - [d1, d2, d3, d1, d2, d3] - for decoder
+
 - **Model Size:** The model consists of approximately 50.6 million parameters.
 
 ## Training Configuration ⚙️
-- **Batch Size:** Training was conducted with a batch size of 32.
-- **Epochs:** The training process spanned 20 epochs.
+- **Batch Size:** Training was conducted with a batch size of `32.`
+- **Epochs:** The training process spanned `20 epochs.`
+- Used CrossEntrophy loss
 
 ### Learning Rate Scheduler
 - **One Cycle Policy Scheduler:** Applied the One Cycle policy scheduler with the following configuration:
-  - Max learning rate (max_lr): 1e-3
-  - Number of epochs: 20
-  - Percentage of training for the increasing LR phase (pct_start): 10%
+  - Max learning rate (max_lr): `1e-3`
+  - Number of epochs: `20`
+  - Percentage of training for the increasing LR phase (pct_start): `10%`
   - Steps per epoch: Determined by the length of the training data loader
-  - Learning rate div factor (div_factor): 10
+  - Learning rate div factor (div_factor): `10`
   - Three-phase learning rate annealing (three_phase)
-  - Final learning rate div factor (final_div_factor): 10
-  - Annealing strategy: Linear
+  - Final learning rate div factor (final_div_factor): `10`
+  - Annealing strategy: `Linear`
 
 - **Optimizer:** Used the ADAM optimizer.
 
 ## Training Results 📊
-- **Final Loss:** The training loss reached 1.43.
-- **Performance Metrics:** The translation model was evaluated using BLEU scores, achieving a score of X on the validation dataset and Y on the test dataset.
+- **Final Loss:** The training loss reached `1.43`.
 
 ### Training Plots
 
