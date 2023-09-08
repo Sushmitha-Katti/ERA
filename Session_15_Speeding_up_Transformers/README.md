@@ -43,29 +43,27 @@ The goal of this assignment was to train an English to French translation model 
 
 ### Training Plots
 
-1. Average Train Loss Per Batch
-![Average Train Loss Per Batch](assets/train_loss.png)
+### Training Plots
 
+<table>
+  <tr>
+    <td><img src="assets/train_loss.png" alt="Average Train Loss Per Batch" width="300"/></td>
+    <td><img src="assets/avg_epoch_train_loss.png" alt="Average Train Loss Per Epoch" width="300"/></td>
+  </tr>
+</table>
 
-2. Average Train Loss Per Epoch
-![Average Train Loss Per Epoch](assets/avg_epoch_train_loss.png)
+### Evaluation Metrics
 
-
-3. BLEU Score
-![BLEU Score](assets/validation BLEU.png)
-
-
-4. CER Validation
-![CER Validation](assets/validation cer.png)
-
-
-5. WER Validation
-![WER Validation](assets/validation wer.png)
-
-
-6. Average Training Time Per Epoch (in seconds)
-
-![Average Training Time Per Epoch (in seconds)](assets/epoch_time.png)
+<table>
+  <tr>
+    <td><img src="assets/validation_BLEU.png" alt="BLEU Score" width="300"/></td>
+    <td><img src="assets/validation_cer.png" alt="CER Validation" width="300"/></td>
+  </tr>
+  <tr>
+    <td><img src="assets/validation_wer.png" alt="WER Validation" width="300"/></td>
+    <td><img src="assets/epoch_time.png" alt="Average Training Time Per Epoch (in seconds)" width="300"/></td>
+  </tr>
+</table>
 
 
 
